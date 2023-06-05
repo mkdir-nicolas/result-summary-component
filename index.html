@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/dekstop.css" media="(min-width: 768px)">
+    <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+    <main>
+        <section class="result result__background result__color">
+            <div class="result-main">
+                <h1 class="result-title">Your Result</h1>
+                <div class="result-score result-score__background">
+                    <p class="result-score__text">
+                        <span class="result-score__big">76</span>of 100
+                    </p>
+                </div>
+                <h2 class="result-subtitle">Great</h2>
+                <p class="result--message">
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </div>
+        </section>
+        <section class="summary">
+            <div class="summary-main">
+                <h2 class="summary--title">Summary</h2>
+                <ul class="summary--list">
+                    <li class="summary--list--item summary--list--item__reaction">
+                        <div class="summary--list__left">
+                            <img class="summary--list--icon" src="./assets/images/icon-reaction.svg"></img>
+                            <p>Reaction</p>
+                        </div>
+                        <p class="summary--list--item--score">
+                            <span>80</span> / 100
+                        </p>
+                    </li>
+                    <li class="summary--list--item summary--list--item__memory">
+                        <div class="summary--list__left">
+                            <img class="summary--list--icon" src="./assets/images/icon-memory.svg"></img>
+                            <p>Memory</p>
+                        </div>
+                        <p class="summary--list--item--score">
+                            <span>92</span> / 100
+                        </p>
+                    </li>
+                    <li class="summary--list--item summary--list--item__verbal">
+                        <div class="summary--list__left">
+                            <img class="summary--list--icon" src="./assets/images/icon-verbal.svg"></img>
+                            <p>Verbal</p>
+                        </div>
+                        <p class="summary--list--item--score">
+                            <span>61</span> / 100
+                        </p>
+                    </li>
+                    <li class="summary--list--item summary--list--item__visual">
+                        <div class="summary--list__left">
+                            <img class="summary--list--icon" src="./assets/images/icon-visual.svg"></img>
+                            <p>Visual</p>
+                        </div>
+                        <p class="summary--list--item--score">
+                            <span>82</span> / 100
+                        </p>
+                    </li>
+                </ul>
+                <button class="summary-button" id="summaryButton">Continue</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+            href="https://www.github.com/mkdir-nicolas">Nicolas Jimenez</a>.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+@import url(./styles.css);
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 670px;
+    margin: auto;
+    background-color: var(--White);
+    border-radius: 3rem;
+    box-shadow: 0px 0px 33px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 33px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 33px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+.result__background {
+    border-radius: 3rem;
+}
+
+.result-title {
+    font-size: 2.2rem;
+    margin-block-start: 1.8rem;
+    margin-block-end: 1.2rem;
+}
+
+.result-score__text {
+    font-size: 2rem;
+}
+
+.result-score__big {
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+.result-score__background {
+    display: grid;
+    place-content: center;
+    width: 20rem;
+}
+
+.result-subtitle {
+    margin-block-end: .5rem;
+    margin-block-start: 2rem;
+}
+
+.summary-main {
+    min-width: 276px;
+}
+
+.summary--title {
+    font-size: 2.2rem;
+    margin-block-start: 1.2rem;
+    margin-block-end: 1.2rem;
+}
+
+.summary-button {
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+}
+
+.summary-button:hover {
+    cursor: pointer;
+    background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue))
+}
